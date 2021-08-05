@@ -1,0 +1,23 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+           xmlns:tns="http://yohaneshdr.com/demo"
+           targetNamespace="http://yohaneshdr.com/demo"
+           elementFormDefault="qualified">
+	
+	
+	<xsd:element name="getDocumentMappingRequest">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="documentType" type="xsd:string"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="getDocumentMappingResponse">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="folderTarget" type="xsd:string"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+</xsd:schema>

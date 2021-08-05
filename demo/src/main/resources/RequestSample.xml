@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+  xmlns:ns="http://yohaneshdr.com/demo">
+	<soapenv:Header/>
+	<soapenv:Body>
+		<ns:getDocumentMappingRequest>
+			<ns:documentType>INVOICE</ns:documentType>
+		</ns:getDocumentMappingRequest>
+	</soapenv:Body>
+</soapenv:Envelope>
